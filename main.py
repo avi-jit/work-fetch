@@ -46,7 +46,7 @@ def scrape_linkedin_jobs(job_title: str, location: str, pages: int = None) -> li
 
     # Navigate to the LinkedIn job search page with the given job title and location
     driver.get(
-        f"https://www.linkedin.com/jobs/search/?f_E=1&origin=JOB_SEARCH_PAGE_JOB_FILTER&geoId=102713980&keywords={job_title}&location={location}&refresh=true&sortBy=DD"
+        f"https://www.linkedin.com/jobs/search/?f_E=1&origin=JOB_SEARCH_PAGE_JOB_FILTER&geoId=103644278&keywords={job_title}&location={location}&refresh=true&sortBy=DD"
     )
 
     # Scroll through the first 50 pages of search results on LinkedIn
