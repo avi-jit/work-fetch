@@ -176,8 +176,8 @@ def save_job_data(data: dict) -> None:
     # Log a message indicating how many jobs were successfully scraped and saved to the CSV file
     logging.info(f"Successfully scraped {len(data)} jobs and saved to README.md")
 
-job_title = "Software Engineer"
-location = "India"
+job_title = "Machine Learning Engineer NLP PhD"
+location = "San Francisco"
 
 jobs = scrape_linkedin_jobs(job_title, location)
 save_job_data(jobs)
